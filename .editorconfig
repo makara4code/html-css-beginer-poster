@@ -1,0 +1,14 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# HTML files
+[*.{html,htm}]
+indent_style = space
+indent_size = 2
+
+# CSS files
+[*.{css}]
+indent_style = space
+indent_size = 2

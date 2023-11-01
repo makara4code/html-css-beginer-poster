@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Roboto:wght@500&family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300&family=Koulen&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #007bff;
+  --font-size: 16px;
+}
+
+body {
+  font-family: 'Source Sans 3', 'Battambang', sans-serif;
+  background-color: #1a1d28;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  margin: 50px 10px;
+  background: #242833;
+  border-radius: 1.2em;
+  padding: 20px
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.course-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
+  padding: 10px 16px;
+  width: fit-content;
+}
+
+.course {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+  border-radius: 0.6em;
+  /* background-color: #effaff; */
+  width: 350px;
+  text-align: center;
+  width: fit-content;
+}
+
+.course ion-icon {
+  font-size: 24px;
+  color: white
+}
+
+.price {
+  font-size: 64px;
+}
+
+.donation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #ffd859
+}
+
+.dontaion-wrapper h3 {
+  text-align: start;
+}
+
+.register-link {
+  margin: 10px
+}
+
+.register-link a {
+  color: white;
+}
